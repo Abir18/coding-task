@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import "./App.css";
 
 const Spinner = ({names}) => {
@@ -112,7 +112,7 @@ const Spinner = ({names}) => {
         <h3>Add Names</h3>
         <div className="names">
           {names.map((name) => (
-            <p>{name}</p>
+            <p key={name}>{name}</p>
           ))}
         </div>
         <div>

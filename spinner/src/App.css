@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.spinner-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.selected-name {
+  margin-top: 150px;
+  font-weight: bold;
+  background: #ddd;
+  font-size: 26px;
+  padding: 30px 90px;
+  border-radius: 8px;
+}
+
+.names {
+  border: 1px solid black;
+  padding: 0px 100px;
+  text-align: start;
+  border-radius: 8px;
+}
